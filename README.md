@@ -8,7 +8,6 @@ Register local coding projects under short aliases, inspect project metadata
 and Git status, keep a persistent SQLite registry, and export the catalog to
 JSON.
 
-[![CI](https://github.com/Ruby-Sploit-King/astradock-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/Ruby-Sploit-King/astradock-cli/actions/workflows/ci.yml)
 [![Python](https://img.shields.io/badge/python-3.11%2B-7aa2f7?logo=python&logoColor=white)](https://www.python.org/)
 [![Ruff](https://img.shields.io/badge/code%20style-ruff-000000)](https://github.com/astral-sh/ruff)
 [![License: MIT](https://img.shields.io/badge/license-MIT-9ece6a)](LICENSE)
