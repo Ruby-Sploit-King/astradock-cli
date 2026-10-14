@@ -5,6 +5,8 @@ Register local coding projects under short aliases, inspect project metadata
 and Git status, keep a persistent SQLite registry, and export the catalog
 to JSON.
 
+![AstraDock example](docs/astradock-example.png)
+
 ## Features
 
 - Rich terminal tables and styled status output.
