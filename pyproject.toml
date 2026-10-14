@@ -10,6 +10,17 @@ readme = "README.md"
 requires-python = ">=3.11"
 license = { file = "LICENSE" }
 authors = [{ name = "Ruby-Sploit-King" }]
+keywords = ["cli", "workspace", "catalog", "projects", "terminal", "rich", "typer"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Build Tools",
+]
 dependencies = [
     "typer>=0.12,<1.0",
     "rich>=13.7,<15.0"
@@ -22,6 +33,12 @@ dev = [
     "mypy>=1.11",
     "build>=1.2",
 ]
+
+[project.urls]
+Homepage = "https://github.com/Ruby-Sploit-King/astradock-cli"
+Repository = "https://github.com/Ruby-Sploit-King/astradock-cli"
+Issues = "https://github.com/Ruby-Sploit-King/astradock-cli/issues"
+Changelog = "https://github.com/Ruby-Sploit-King/astradock-cli/releases"
 
 [project.scripts]
 AstraDock = "main:app"
